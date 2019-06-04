@@ -5,7 +5,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-
+ -
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in JavaScript fundamentals.
@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    Both iterate through an array.  The difference is that .forEach acts as a replacement for a for loop.  .map on the other hand will return a new.
 
 2. What is the difference between a function and a method?
+    A method is technically a function, but it is a function in which it is a property of an object.
 
 3. What is closure?
+    Sets the limits of a global and local scope.
 
 4. Describe the four rules of the 'this' keyword.
+    1) Windo/Global binding.  The "this" value will be the window/console object
+    2) Implicit binding
+    3) New binding uses the "new" keyword to creat a new object
+    4) Explicit binding - uses .call or .apply to connect to an oject
 
 5. Why do we need super() in an extended class?
+    It allows subclasses to inherit attibutes from the parents
 
 ## Project Set up
 
